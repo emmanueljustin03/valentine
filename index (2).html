@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Valentine's Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffcccb;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #d63447;
+        }
+        p {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #d63447;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        // Redirect to the main page after 20 seconds
+        setTimeout(function() {
+            window.location.href = "valentine.html";
+        }, 20000); // 20000 milliseconds = 20 seconds
+    </script>
+</head>
+<body>
+    <h1>Hi Bebe!</h1>
+    <p>This letter better make you smile, just like I do every time I think of you. There’s something about the way you light up a room, the way your laughter feels like a melody, and the way your presence makes everything seem brighter.
+
+Life feels a more wonderful when you’re around. Whether it’s the way you listen, the way you care, or the way you make even the simplest moments feel special, you’ve become someone I can’t imagine my days without. You’ve touched my heart in ways I never expected, and I’m so grateful for you.</p>
+    <div class="loader"></div>
+</body>
+</html>
