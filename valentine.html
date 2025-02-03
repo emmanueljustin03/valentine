@@ -52,7 +52,7 @@
 <body>
     <div class="heart">❤️</div>
     <h1>Will You Be My Valentine?</h1>
-    <p>I really really really really really like you and would love it if you would be my Valentine:D!</p>
+    <p>I REALLY REALLY REALLY REALLY REALLY REALLY like you and would LOVEEEEE it if you would be my Valentine:D!</p>
     <button id="yesButton">Yes</button>
     <button id="noButton">No</button>
 
@@ -71,14 +71,14 @@
 
         function growYesButton() {
             const yesButton = document.getElementById('yesButton');
-            yesButtonSize += 0.5; // Increase size by 50% each time
+            yesButtonSize += 0.5; // Increase size by 20% each time
             yesButton.style.transform = `scale(${yesButtonSize})`;
         }
 
         function triggerConfetti() {
             confetti({
-                particleCount: 100,
-                spread: 70,
+                particleCount: 200,
+                spread: 100,
                 origin: { y: 0.6 }
             });
         }
